@@ -1,0 +1,236 @@
+body {
+  font-family:'Playfair Display', serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.nav-pills {
+  font-size:1.7em;
+  background-color:black;
+  margin-bottom: 10%;
+}
+
+.pageOne {
+  background:url('https://hd.unsplash.com/35/HHEvkhEsQLaNDRkui4fg_fullsize.jpg');
+  background-size: cover;
+  height: 700px;
+}
+
+.pageTwo {
+  background: url('https://hd.unsplash.com/photo-1469281626092-2ad32387b2b2');
+  background-size: cover;
+  height: 700px;
+  padding-top: 5%;
+}
+
+.pageThree {
+  background:url('https://hd.unsplash.com/photo-1471644518115-1f02e9819854');
+  background-size: cover;
+  height: 700px;
+  padding-top: 5%;
+}
+
+.pageFour {
+  background: url('https://hd.unsplash.com/photo-1449709861192-5fbaa595db43');
+  background-size: cover;
+  height: 700px;
+  padding-top: 5%;
+}
+
+.footer {
+  background-color: black;
+  padding: 1em;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 0;
+  font-size:4.5em;
+}
+
+.btn-default {
+  background-color:black;
+  border-color:black;
+  color: #337ab7;
+  font-size: 1.4em;
+  margin-left: 0.4em;
+}
+
+.block {
+  background-color:black;
+  opacity: .7;
+  padding: 1em;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3em;
+  border-radius: 3%;
+}
+
+.block2 {
+  background-color: black;
+  opacity: .7;
+  padding: 0.5em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 3%;
+}
+
+p {
+  font-size: 1.7em;
+}
+
+.aboutMe {
+  padding-bottom: 25%;
+}
+
+.mePic {
+  border-radius: 50%;
+}
+
+table, th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 3em;
+}
+
+.footy {
+  font-size: 1em;
+}
+
+#contactMe {
+  margin-top: 3em;
+}
+
+form {
+  margin: 5em auto 0 auto;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: black;
+  opacity: .7;
+  height: 23em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid black;
+  color: black;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  margin-left: 0px;
+}
+
+button {
+  margin-left: .5em;
+  background-color: black;
+}
+
+form div {
+  margin-top: 7em;
+}
+
+.contactText {
+  margin-top: 7em;
+}
+
+.footList li {
+  display: inline-block;
+}
+
+#tribute {
+  background: url('https://nizooffe.sirv.com/JBandKYLE.png');
+  background-size: cover;
+}
+
+#practice {
+  background: url('https://nizooffe.sirv.com/tumblr_oa9reyLEBe1sbxj8ao1_1280.jpg');
+  background-size: cover;
+}
+
+#thisApp {
+  background: url('https://nizooffe.sirv.com/0349-01_tips_first_web_app_thumbnail.jpg');
+  background-size: cover;
+}
+
+#coolThing {
+  background: url('https://nizooffe.sirv.com/background.jpg');
+  background-size: cover;
+}
+
+#musicApp {
+  background: url('https://nizooffe.sirv.com/Official%20Google%20Music%20App%20For%20iOS.png');
+  background-size: cover;
+}
+
+#travelApp {
+  background: url('https://nizooffe.sirv.com/HotelTonight-Keyless.png');
+  background-size: cover;
+}
+
+.portfolio a {
+  color: white;
+}
+
+.portfolio a:hover {
+  color: yellow;
+}
+
+#eggTimer {
+  background: url('https://nizooffe.sirv.com/eggTimer.jpg');
+  background-size: cover;
+}
+
+#toDoList {
+  background: url('https://nizooffe.sirv.com/Tasky-1.jpg');
+  background-size: cover;
+}
+
+#weather {
+  background: url('https://nizooffe.sirv.com/Eye-in-the-Sky-Weather-screenshot-710x399.jpg');
+  background-size: cover;
+}
+
+#animation {
+  background: url('https://nizooffe.sirv.com/42.jpg');
+  background-size: cover;
+}
+
+#awesome {
+  background: url('https://nizooffe.sirv.com/app2.jpg');
+  background-size: cover;
+}
+
+#radical {
+  background: url('https://nizooffe.sirv.com/382049F500000578-3781859-Apple_s_latest_phone_the_iPhone_7_has_two_cameras_that_work_as_o-a-101_1473437086988.jpg');
+  background-size: cover;
+}

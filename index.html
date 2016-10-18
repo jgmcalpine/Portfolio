@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <div class="pageOne text-center">
+    <ul class="nav nav-pills">
+      <li><a href="#myName">Jonathan McAlpine</a></li>
+      <li class="pull-right"><a href="#contactMe">Contact</a></li>
+      <li class="pull-right"><a href="#myPortfolio">My Portfolio</a></li>
+      <li class="pull-right"><a href="#aboutMe">About Me</a></li>
+    </ul>
+    <div class="block text-center">
+      <h1 id="myName">Jonathan McAlpine</h1>
+      <h3>"Apparently there is nothing that cannot happen today."</h3>
+      <h5> - Mark Twain</h5>
+    </div>
+    <br>
+    <div class="btnList text-center">
+      <a class="btn btn-default" href="https://twitter.com/ReRunJMC" target="_blank">Twitter</a>
+      <a class="btn btn-default" href="https://www.freecodecamp.com/jgmcalpine" target="_blank">FreeCodeCamp</a>
+      <a class="btn btn-default" href="https://www.facebook.com/profile.php?id=10236358" target="_blank">Facebook</a>
+      <a class="btn btn-default" href="https://github.com/jgmcalpine" target="_blank">GitHub</a>
+      <a class="btn btn-default" href="https://www.linkedin.com/in/jon-mcalpine-79263167?trk=hp-identity-photo" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <div class="pageTwo">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-4 text-center">
+        <h1 id="aboutMe">Learn more about me!</h1>
+        <p class="aboutMe">I am from Oceanside, CA but have lived around the world in places like Barcelona, Taipei, Busan, Delhi, and Santiago. I am working my way through FreeCodeCamp and learning Swift on Udemy in order to become a web and mobile app developer. I love playing basketball and guitar and am always happy to share travel stories!</p>
+      </div>
+      <div class="col-md-4" style="padding-top: 5%">
+        <img src="https://nizooffe.sirv.com/10981218_10102995793313083_3818858699285477290_n.jpg" width="320" height="320" alt="me in Patagonia" class="mePic img-responsive"/>
+      </div>  
+  </div>
+  </div>
+  <div class="pageThree">
+    <h1 id="myPortfolio" class="text-center">My Portfolio!</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-4 text-center">
+        <div class="block2">
+        <table class="portfolio">
+          <tr>
+            <th class="tableHeads text-center" colspan="2">Web Apps</th>
+          </tr>
+          <tr>
+            <td id="tribute"><a href="#">Tribute page</a></td>
+            <td id="practice"><a href="#">Practice Site</a></td>
+          </tr>
+          <tr>
+            <td id="thisApp"><a href="#">This App</a></td>
+            <td id="coolThing"><a href="#">Cool internet thing</a></td>
+          </tr>
+          <tr>
+            <td id="musicApp"><a href="#">Music Site</a></td>
+            <td id="travelApp"><a href="#">Travel Site</a></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+      <div class="col-md-offset-1 col-md-4 text-center">
+        <div class="block2">
+        <table class="portfolio">
+          <tr>
+            <th class="tableHeads text-center" colspan="2">Mobile Apps</th>
+          </tr>
+          <tr>
+            <td id="eggTimer"><a href="#">Egg Timer</a></td>
+            <td id="toDoList"><a href="#">To-do list</a></td>
+          </tr>
+          <tr>
+            <td id="weather"><a href="#">Weather App</a></td>
+            <td id="animation"><a href="#">Animation by You</a></td>
+          </tr>
+          <tr>
+            <td id="awesome"><a href="#">Awesome App</a></td>
+            <td id="radical"><a href="#">Radical App</a></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+      </div>
+  </div>
+  <div class="pageFour">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-6 text-center">
+         <form id="contactMe" action="#" method="post">
+           <div>
+             <label for="name">Name: </label>
+             <input type="text" id="name" name="user_name" />
+           </div>
+           <div>
+             <label for="mail">Email: </label>
+             <input type="email" id="mail" name="user_mail" />
+           </div>
+           <div>
+             <label for="msg">Message: </label>
+             <textarea id="msg" name="user_message"></textarea>
+           </div>
+           <div class="button">
+             <button type="submit">Send your message</button>
+           </div>
+        </form>
+      </div>
+      <div class="col-md-4 contactText">
+        <h1>Contact Me</h1>
+        <p>Use the buttons above or below to get in touch or send me an email!</p>
+      </div>
+    </div>
+  </div>
+    <div class="footer text-center">
+      <ul class="footList">
+        <li><a class="btn btn-default" href="https://www.facebook.com/profile.php?id=10236358" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="btn btn-default" href="https://twitter.com/ReRunJMC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><p class="footy">Coded by Jonathan McAlpine</p></li>
+        <li><a class="btn btn-default" href="https://github.com/jgmcalpine" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="btn btn-default" href="https://www.linkedin.com/in/jon-mcalpine-79263167?trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/d14b6b0ab2.js"></script>
+  </body>
+  </html>
