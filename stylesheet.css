@@ -17,21 +17,21 @@ body {
 }
 
 .pageOne {
-  background:url('https://hd.unsplash.com/35/HHEvkhEsQLaNDRkui4fg_fullsize.jpg');
+  background:url('https://nizooffe.sirv.com/rocks.jpg');
   background-size: cover;
   height: 4375%;
   padding-bottom: 20%;
 }
 
 .pageTwo {
-  background: url('https://hd.unsplash.com/photo-1469281626092-2ad32387b2b2');
+  background: url('https://nizooffe.sirv.com/riverFingers.jpeg');
   background-size: cover;
   height: 4375%;
   padding-top: 5%;
 }
 
 .pageThree {
-  background:url('https://hd.unsplash.com/photo-1471644518115-1f02e9819854');
+  background:url('https://nizooffe.sirv.com/mountains.jpeg');
   background-size: cover;
   height: 4375%;
   padding-top: 5%;
@@ -39,7 +39,7 @@ body {
 }
 
 .pageFour {
-  background: url('https://hd.unsplash.com/photo-1449709861192-5fbaa595db43');
+  background: url('https://nizooffe.sirv.com/waterLight.jpeg');
   background-size: cover;
   height: 4375%;
   padding-top: 5%;
