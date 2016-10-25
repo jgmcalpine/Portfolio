@@ -16,34 +16,34 @@ body {
   margin-bottom: 10%;
 }
 
-.pageOne {
+#pageOne {
   background:url('https://nizooffe.sirv.com/rocks.jpg');
   background-size: cover;
-  height: 4375%;
   padding-bottom: 20%;
 }
 
-.pageTwo {
+#two {
   background: url('https://nizooffe.sirv.com/riverFingers.jpeg');
   background-size: cover;
-  height: 4375%;
   padding-top: 5%;
 }
 
-.pageThree {
+#three {
   background:url('https://nizooffe.sirv.com/mountains.jpeg');
   background-size: cover;
-  height: 4375%;
   padding-top: 5%;
   padding-bottom: 15%;
 }
 
-.pageFour {
+#four {
   background: url('https://nizooffe.sirv.com/waterLight.jpeg');
   background-size: cover;
-  height: 4375%;
   padding-top: 5%;
   padding-bottom: 20%;
+}
+
+.page {
+  height: 4375%;
 }
 
 .footer {
